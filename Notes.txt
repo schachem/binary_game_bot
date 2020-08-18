@@ -1,0 +1,11 @@
+Python version: 3.7.8
+Libs: BeautifulSoup and Selenium
+
+--------------------
+
+- Make sure you have chromedriver download in your machine
+- Look at the imports for other libs required
+
+--------------------
+
+By: Wili Souza
