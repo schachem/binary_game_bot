@@ -41,7 +41,7 @@ def play_game(driver):
 
         logging.info("Loading Game …")
 
-        # Load binary game and wait 5 seconds
+        # Load binary game and wait
         driver.get('https://learningcontent.cisco.com/games/binary/index.html')
         sleep(3)
 
@@ -73,7 +73,7 @@ def play_game(driver):
 
         # Reparse page for numpad and wait
         _ = BeautifulSoup(driver.page_source, 'html.parser')
-        sleep(1)
+        sleep(2)
 
         # Find numpad buttons
         digits = driver.find_element("class name", 'calculator.fade-enter-done').find_elements("tag name", 'button')
