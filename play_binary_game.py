@@ -115,11 +115,10 @@ def play_game(driver):
 
         # Start the game
         start()
+        level = 0
 
         # Continuously perform steps (2) to (4)
         while True:
-
-            level = 0
 
             # Wait and parse the page
             sleep(2)
